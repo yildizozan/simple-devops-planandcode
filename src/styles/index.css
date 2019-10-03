@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container-for-cards {
+  display: flex;
+}
+
+.container-for-cards-title {
+  padding: 1px 16px;
+  background-color: rgb(255, 64, 129);
+  color: #FFF;
+}
+
+.container-for-cards > div {
+  margin: 13px;
+}
+
+.card {
+  margin-bottom: 21px;
+}
+
+/*
+ *
+ */
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.list-title > h4 > div {
+  cursor: pointer;
+}
+
+.mdl-card {
+  min-height: auto !important;
+}
+
+.container-for-cards > div {
+  min-width: 330px;
+}
+
+/*
+ * Create project button
+ */
+.mdl-navigation__link {
+  cursor: pointer;
+}
+
+/*
+  Listeler taşarsa ekrandan
+  kaydırma çubuğunu aktif ediyoruz.
+*/
+.mdl-layout__content {
+  overflow-y: auto !important;
+}
